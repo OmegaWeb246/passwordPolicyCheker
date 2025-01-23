@@ -2,6 +2,10 @@
 
 import optparse
 
+# Created by OmegaWeb on january 23 2025
+# Calculate how many password possible you allow on your password policy
+# Calculate how long a hacker would take to test all password possible
+
 parser = optparse.OptionParser()
 
 parser.add_option("-m","--max", dest="max_length",help="Maximum length of the password string")
